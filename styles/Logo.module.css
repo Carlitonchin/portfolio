@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.container{
+    width: 35%;
+    height: 70%;
+    background: transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 5px solid #840032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p{
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    font-family: 'Anton', sans-serif;
+}
