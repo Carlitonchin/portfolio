@@ -3,8 +3,6 @@ import Link from 'next/link'
 
 const HeadBar = function(props)
 {
-
-    console.log(props.links)
     return (
     <div className={styles.container}>
         <div className={styles.containerLogo}>{props.children}</div>

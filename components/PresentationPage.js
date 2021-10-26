@@ -27,7 +27,7 @@ function Presentation()
       </div>
       <div className={styles.description}>
         {/*<h1>{"<Welcome/>"}</h1>*/}
-        <Welcome word = "Welcome" list = {["List", "Wisconsin", "Weigh", "Welcome", "Welter"]}/>
+        <Welcome word = "Welcome" list = {["List", "Weigh", "Wisconsin",  "Welcome", "Welter"]}/>
       </div>
       </div>
     )
