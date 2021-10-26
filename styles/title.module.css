@@ -1,0 +1,29 @@
+.container
+{
+    margin-top: 10vh;
+    font-family: 'Lobster', cursive;
+    color: #343633;
+    margin-bottom: 15px;
+    
+}
+
+.container_title
+{
+    width: 15%;
+    margin: 0 auto;
+}
+
+.title
+{
+    font-size: 5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.sub
+{
+    background: #840032;
+    width: 22%;
+    height: 10px;
+    margin: 0 auto;
+}

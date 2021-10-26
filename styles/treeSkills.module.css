@@ -1,0 +1,87 @@
+.container
+{
+    
+    font-size: 2rem;
+    font-family: 'Cairo', sans-serif;
+    color: #343633;
+    margin: 0 auto;
+}
+.margin
+{
+    margin-left: 2.5rem;
+}
+
+.children
+{
+    position: relative;
+}
+
+.line
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: black;
+    margin-left: calc(5px + 0.6rem);
+}
+
+.container_skill
+{
+    display: flex;
+    width: 100%;
+    line-height: calc(2.2rem);
+ 
+   
+}
+
+.icon_expanded
+{
+    margin: auto 5px;
+    height: 1.2rem;
+    width: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    transition: 100ms ease-in-out;
+    -webkit-transition: 100ms ease-in-out;
+    -moz-transition: 100ms ease-in-out;
+    -ms-transition: 100ms ease-in-out;
+    -o-transition: 100ms ease-in-out;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.margin_expand_icon
+{
+    margin-left: calc(1.2rem + 10px);
+}
+
+.icon_expanded:hover
+{
+    background: rgba(128, 128, 128, 0.486);
+}
+
+.skill
+{
+    display: flex;
+}
+
+.plus
+{
+    position: absolute;
+    left: calc(50% - 2px);
+    height: 100%;
+    width: 4px;
+    background: black;
+}
+
+.minus{
+    height: 4px;
+    width: 100%;
+    background: black;
+}
