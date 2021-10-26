@@ -1,0 +1,30 @@
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 4.4rem;
+}
+
+.auto_complete
+{
+    width: 20%;
+    position: absolute;
+    right: 15%;
+    font-size: 2rem;
+    text-align: left;
+    border: solid 1px black;
+    color: black;
+}
+
+.text_auto_complete
+{
+    margin-left: 10px;
+}
+
+.with_color{
+    background: #88e0ef;
+}
