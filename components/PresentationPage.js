@@ -14,10 +14,10 @@ function Presentation()
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <HeadBar links={[
-      {text:"Presentation", selected:true},
-     {text:"Skills", selected:false},
-      {text:"Games", selected:false},
-      {text:"Projects", selected:false}]}>
+      {text:"Presentation", selected:false, link:"#"},
+     {text:"Skills", selected:false, link:"#skillsPage" },
+      {text:"Games", selected:false, link:"#"},
+      {text:"Projects", selected:false, link:"#"}]}>
       <Logo/>
     </HeadBar>
       <div className={styles.presentation}>

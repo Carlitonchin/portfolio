@@ -3,7 +3,9 @@ import styles from '../styles/welcome.module.css'
 
 function Welcome(props)
 {
+    
     const [[word, realWord,list], setState] = useState(["", "", props.list])
+    console.log(word)
     useEffect(()=>
     {
         let time = 1000;
@@ -59,7 +61,7 @@ function Welcome(props)
         <div className={styles.auto_complete}>
         {list.map((value, index)=>
         {
-            return <div key={index} className={index===0?styles.with_color:""}>{<div className={styles.text_auto_complete}>{value}</div>}</div>;
+            return <div key={value} className={index===0?styles.with_color:""}>{<div className={styles.text_auto_complete}>{value}</div>}</div>;
         })}
     </div>:
     ""

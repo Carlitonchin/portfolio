@@ -71,6 +71,14 @@
     display: flex;
 }
 
+.skill>img
+{
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 10px;
+    margin-top: 0.3rem;
+}
+
 .plus
 {
     position: absolute;

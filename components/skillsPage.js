@@ -22,7 +22,7 @@ function TreeSkills(props)
     :
     <div className={styles.margin_expand_icon}></div>
 }
-        <div className={styles.skill}>{props.skill}</div>
+        <div className={styles.skill}>{props.skill} <img src={props.icon}></img></div>
     
 </div>
 {(props.children && expanded)?
@@ -35,47 +35,47 @@ function TreeSkills(props)
 
 function Skills()
 {
-    return <div className={stylesFather.container}>
+    return <div className={stylesFather.container} id="skillsPage">
     <Title title={"Skills"}/>
     <div className={stylesFather.container_skills}>
     
     <div className={stylesFather.skills}>
-    <TreeSkills skill={"frontend"}>
+    <TreeSkills skill={"frontend"} icon={"frontend.svg"}>
         <div className={stylesFather.skills}>
-        <TreeSkills skill="html5"/>
-        <TreeSkills skill="css"/>
-        <TreeSkills skill="javascript">
+        <TreeSkills skill="html5" icon={"html.svg"}/>
+        <TreeSkills skill="css3" icon={"css.svg"}/>
+        <TreeSkills skill="javascript" icon={"js.svg"}>
             <div className={stylesFather.skills}>
-                <TreeSkills skill="react js"/>
+                <TreeSkills skill="react js" icon={"react.svg"}/>
             </div>
         </TreeSkills>
         </div>
     </TreeSkills>
 
-    <TreeSkills skill={"backend"}>
+    <TreeSkills skill={"backend"} icon={"backend.svg"}>
         <div className={stylesFather.skills}>
-            <TreeSkills skill={"node js"}>
+            <TreeSkills skill={"node js"} icon={"node.svg"}>
             <div className={stylesFather.skills}>
-            <TreeSkills skill={"express"}/>
+            <TreeSkills skill={"express js"} icon={"express.svg"}/>
         </div>
             </TreeSkills>
 
-            <TreeSkills skill={".net"}>
+            <TreeSkills skill={".net"} icon={"csharp.svg"}>
             <div className={stylesFather.skills}>
-            <TreeSkills skill={"asp"}/>
+            <TreeSkills skill={"asp.net"} icon={"microsoft.svg"}/>
         </div>
             </TreeSkills>
 
-            <TreeSkills skill={"python"}/>
+            <TreeSkills skill={"python"} icon={"python.svg"}/>
         </div>
     </TreeSkills>
-    <TreeSkills skill={"others"}>
+    <TreeSkills skill={"others"} icon={"other.svg"}>
     <div className={stylesFather.skills}>
-            <TreeSkills skill={"math"}/>
+            <TreeSkills skill={"math"} icon={"math.svg"}/>
 
-            <TreeSkills skill={"data structures"}/>
+            <TreeSkills skill={"data structures"} icon={"data.svg"}/>
 
-            <TreeSkills skill={"algorithms"}/>
+            <TreeSkills skill={"algorithms"} icon={"algorithm.svg"}/>
         </div>
     </TreeSkills>
     </div>

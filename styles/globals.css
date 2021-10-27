@@ -6,4 +6,5 @@ body {
   font-family: 'Anton', sans-serif;
   font-size: 1vw;
   background: #e5dada;
+  scroll-behavior: smooth;
 }
