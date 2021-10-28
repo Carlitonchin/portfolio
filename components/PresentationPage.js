@@ -6,6 +6,7 @@ import Welcome from '../components/Welcome'
 
 function Presentation()
 {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -21,8 +22,9 @@ function Presentation()
       <Logo/>
     </HeadBar>
       <div className={styles.presentation}>
-      <h1><span className={styles.hi}>Hi</span> , My Name is Carlos Arrieta</h1>
-      <h3>{"I'm Computer Science Student"}</h3>
+
+      <h1><span className={styles.hi}>Hi</span> , my name is Carlos Arrieta</h1>
+      <h3>{"I'm Computer Science student"}</h3>
 
       </div>
       <div className={styles.description}>

@@ -9,14 +9,12 @@
 
 .container_title
 {
-    width: 15%;
-    margin: 0 auto;
+    text-align: center;
 }
 
 .title
 {
     font-size: 5rem;
-    text-align: center;
     margin: 0;
 }
 
@@ -24,6 +22,20 @@
 {
     background: #840032;
     width: 22%;
-    height: 10px;
+    height: 1vw;
     margin: 0 auto;
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+    .sub
+    {
+        width: 33%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 499px) {
+    .sub
+    {
+        width: 60%;
+    }
 }

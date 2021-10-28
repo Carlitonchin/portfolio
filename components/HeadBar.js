@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import styles from '../styles/HeadBar.module.css'
 
+
 function getSection(fraction)
 {
     if(fraction <= 0.4)
