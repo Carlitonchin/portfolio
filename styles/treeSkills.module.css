@@ -30,7 +30,7 @@
     display: flex;
     width: 100%;
     line-height: calc(2.2rem);
- 
+    
    
 }
 
@@ -69,6 +69,7 @@
 .skill
 {
     display: flex;
+    cursor: pointer;
 }
 
 .skill>img

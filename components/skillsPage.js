@@ -22,7 +22,7 @@ function TreeSkills(props)
     :
     <div className={styles.margin_expand_icon}></div>
 }
-        <div className={styles.skill}>{props.skill} <img src={props.icon}></img></div>
+        <div onClick={handleExpand} className={styles.skill}>{props.skill} <img src={props.icon}></img></div>
     
 </div>
 {(props.children && expanded)?
