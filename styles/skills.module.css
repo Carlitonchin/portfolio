@@ -1,6 +1,7 @@
 .container
 {
-    height: 90vh;
+    min-height: 70vh;
+    padding-bottom: 10vh;
 }
 
 .container_skills
@@ -19,6 +20,6 @@
 @media (min-width: 1px) and (max-width: 499px) {
     .container_skills
     {
-        margin-left: 31%;
+        margin-left: 25%;
     }
 }

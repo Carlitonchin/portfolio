@@ -17,7 +17,6 @@ function Presentation()
     <HeadBar links={[
       {text:"Presentation", selected:false, link:"#"},
      {text:"Skills", selected:false, link:"#skillsPage" },
-      {text:"Games", selected:false, link:"#"},
       {text:"Projects", selected:false, link:"#"}]}>
       <Logo/>
     </HeadBar>

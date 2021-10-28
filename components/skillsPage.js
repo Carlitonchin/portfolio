@@ -11,9 +11,17 @@ function TreeSkills(props)
     {
         changeExpand(!expanded);
     }
+
+    function handleMouseDown()
+    {
+        console.log("hello")
+    }
+
     return <div className={styles.container}>
     <div className={styles.container_skill}>
-    {(props.children)?
+
+        <div onClick={handleExpand} onMouseDown={handleMouseDown} className={styles.skill}>
+        {(props.children)?
     <div className={styles.icon_expanded} onClick={handleExpand}>
         <div className={styles.minus}>
         </div>
@@ -22,7 +30,7 @@ function TreeSkills(props)
     :
     <div className={styles.margin_expand_icon}></div>
 }
-        <div onClick={handleExpand} className={styles.skill}>{props.skill} <img src={props.icon}></img></div>
+        {props.skill} <img src={props.icon}></img></div>
     
 </div>
 {(props.children && expanded)?
