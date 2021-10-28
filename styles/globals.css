@@ -54,7 +54,7 @@ body {
 @media (min-width: 360px) and (max-width: 399px) {
   html, body
   {
-    font-size: 3vw;
+    font-size: 3.2vw;
   }
 
 }
@@ -62,7 +62,7 @@ body {
 @media (min-width: 1px) and (max-width: 359px) {
   html, body
   {
-    font-size: 3.1vw;
+    font-size: 3.3vw;
   }
 
 }
