@@ -1,0 +1,89 @@
+.container
+{
+    width: 20%;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border: solid 2px var(--firstColor);
+    color: var(--fontColor);
+    cursor: pointer;
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+    .container
+    {
+        width: 30%;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .container
+    {
+        width: 35%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 399px) {
+    .container
+    {
+        width: 60%;
+    }
+}
+
+
+
+.container:hover
+{
+    background: #91e9d0;
+}
+
+.container_social_media
+{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.container_social_media>a
+{
+
+    text-decoration: none;
+    color: var(--fontColor);
+}
+
+
+.social_media
+{
+    padding-top: 5px;
+    padding-bottom: 5px ;
+}
+
+.social_media>svg
+{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: 10px;
+}
+
+.twitter>svg{
+    color:#1da1f2;
+}
+
+.email>svg
+{
+    color:#ea4335;
+}
+
+.telegram>svg
+{
+    color:#0088cc;
+}

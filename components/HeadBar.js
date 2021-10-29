@@ -4,13 +4,16 @@ import styles from '../styles/HeadBar.module.css'
 
 function getSection(fraction)
 {
-    if(fraction <= 0.4)
+    if(fraction <= 0.31)
         return 0;
 
-    if(fraction <= 1.15)
+    if(fraction <= 0.80)
         return 1;
 
-    return 2;
+    if(fraction <= 1.36)
+        return 2;
+
+    return 3;
 }
 
 const HeadBar = function(props)

@@ -68,6 +68,12 @@
     padding: 10px;
 }
 
+.description
+{
+    margin-top:  2.5vw;
+    margin-bottom: 2.5vw;
+}
+
 .visitButton
 {
     padding-top: 10px;

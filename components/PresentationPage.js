@@ -18,7 +18,7 @@ function Presentation()
       {text:"Presentation", selected:false, link:"#"},
      {text:"Skills", selected:false, link:"#skillsPage" },
       {text:"Projects", selected:false, link:"#projectsPage"},
-      {text:"Contact", selected:false, link:"#"}
+      {text:"Contact", selected:false, link:"#contactPage"}
       ]}>
       <Logo/>
     </HeadBar>
