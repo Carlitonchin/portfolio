@@ -84,6 +84,7 @@ function Skills()
             <TreeSkills skill={"data structures"} icon={"data.svg"}/>
 
             <TreeSkills skill={"algorithms"} icon={"algorithm.svg"}/>
+
         </div>
     </TreeSkills>
     </div>

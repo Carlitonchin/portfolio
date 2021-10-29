@@ -1,22 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 .container{
+    margin-left: 5px;
     height: 70%;
-    background: transparent;
+    width: 30%;background: #91e9d0;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: 5px solid var(--firstColor);
+    border: 5px solid var(--backColorWelcome);
     display: flex;
     justify-content: center;
     align-items: center;
+   
+    cursor: pointer;
+    position: relative;
+}
+
+@media (min-width: 1px) and (max-width: 700px) {
+    
+    .container{
+        width: 35%;
+    }
 }
 
 .p{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: var(--firstColor);
     margin: 0;
     font-size: 2.2rem;
     font-weight: bolder;
     font-family: 'Anton', sans-serif;
+}
+
+.logo
+{
+    width: 100%;
+    height: 100%;
+    color: rebeccapurple;
 }

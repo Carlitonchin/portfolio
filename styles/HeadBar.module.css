@@ -8,6 +8,7 @@
     box-shadow: 0px 0px 2px 0px gray;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: var(--fontColor);
     position: fixed;
     top: 0;
@@ -21,11 +22,11 @@
     align-items: center;
     justify-content: center;
     color: var(--firstColor);
+    
 }
 
 .containerOptions
 {
-    
     margin-right: 10%;
     width: 60%;
     height: 100%;
@@ -54,18 +55,15 @@
     }
 }
 
-@media (min-width: 430px) and (max-width: 500px) {
-    .containerOptions
-    {
-        width: 70%;
-        margin-right: 2%;
-        justify-content: space-between;
-    }
-}
 
-@media (max-width: 429px) {
+@media (max-width: 500px) {
     .containerOptions{
         display: none;
+
+    }
+    .containerLogo
+    {
+        width: 35%;
     }
 }
 
