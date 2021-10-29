@@ -34,7 +34,7 @@ function Welcome(props)
             let character = '';
             let new_list = list;
             if(word[word.length - 1] === props.word[props.word.length - 1]){
-                character = " /"
+                character = "/"
                 yes = true;
             }
 

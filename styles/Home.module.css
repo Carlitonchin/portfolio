@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-.container
-{
-    background: #e5dada;
-}
 
 .presentation
 {
     font-family: 'Lobster', cursive;
   font-size: 2rem;
-  color: #343633;
+  color: var(--fontColor);
   text-align: center;
 
   height: 70vh;
@@ -20,12 +16,12 @@
 }
 
 .hi{
-    color:#840032
+    color:var(--firstColor)
 }
 
 .description
 {
-    background: #34404a;
+    background: var(--fontColor);
     width: 100%;
     height: 30vh;
     font-family: 'Source Code Pro', monospace;

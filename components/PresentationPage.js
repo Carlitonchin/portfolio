@@ -17,7 +17,9 @@ function Presentation()
     <HeadBar links={[
       {text:"Presentation", selected:false, link:"#"},
      {text:"Skills", selected:false, link:"#skillsPage" },
-      {text:"Projects", selected:false, link:"#"}]}>
+      {text:"Projects", selected:false, link:"#projectsPage"},
+      {text:"Contact", selected:false, link:"#"}
+      ]}>
       <Logo/>
     </HeadBar>
       <div className={styles.presentation}>

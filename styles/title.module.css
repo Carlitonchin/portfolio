@@ -1,7 +1,6 @@
 .container
 {
-    margin-top: 10vh;
-    font-family: 'Lobster', cursive;
+    font-family: 'Patrick Hand', cursive;
     color: #343633;
     margin-bottom: 15px;
     
@@ -20,7 +19,7 @@
 
 .sub
 {
-    background: #840032;
+    background: var(--firstColor);
     width: 22%;
     height: 1vw;
     margin: 0 auto;

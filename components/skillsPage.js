@@ -68,9 +68,9 @@ function Skills()
         </div>
             </TreeSkills>
 
-            <TreeSkills skill={".net"} icon={"csharp.svg"}>
+            <TreeSkills skill={".net"} icon={"microsoft.svg"}>
             <div className={stylesFather.skills}>
-            <TreeSkills skill={"asp.net"} icon={"microsoft.svg"}/>
+            <TreeSkills skill={"asp.net"} icon={"csharp.svg"}/>
         </div>
             </TreeSkills>
 

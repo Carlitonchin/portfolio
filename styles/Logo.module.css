@@ -9,7 +9,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: 5px solid #840032;
+    border: 5px solid var(--firstColor);
     display: flex;
     justify-content: center;
     align-items: center;

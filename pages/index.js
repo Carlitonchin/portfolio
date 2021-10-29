@@ -1,7 +1,8 @@
 
 import PresentationPage from '../components/PresentationPage'
 import Skills from '../components/skillsPage'
-
+import Projects from '../components/ProjectsPage'
+import EndSection from '../components/endSection'
 
 
 export default function Home() {
@@ -10,8 +11,10 @@ export default function Home() {
   return (
     <>
       <PresentationPage/>
-      <Skills />
-
+      <Skills  />
+      <EndSection/>
+      <Projects/>
+      <EndSection/>
       </>
   )
 }

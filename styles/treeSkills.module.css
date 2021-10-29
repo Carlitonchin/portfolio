@@ -3,7 +3,7 @@
     
     font-size: 2rem;
     font-family: 'Cairo', sans-serif;
-    color: #343633;
+    color: var(--fontColor);
     margin: 0 auto;
 }
 .margin
@@ -21,7 +21,7 @@
     position: absolute;
     width: 2px;
     height: 100%;
-    background: black;
+    background: var(--fontColor);
     margin-left: calc(5px + 0.6rem);
 }
 
@@ -71,9 +71,9 @@
     box-shadow: 0px 0px 2px 0px gray;
     margin: 5px;
     padding: 5px;
-    color: white;
+    color: var(--fontColor);
     display: flex;
-    background: #840032;
+    border: solid 2px var(--firstColor);
     cursor: pointer;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -92,7 +92,7 @@
 
 .skill:hover
 {
-    background: #c7024d;
+    background: #91e9d0;
 }
 
 .plus
@@ -101,11 +101,11 @@
     left: calc(50% - 2px);
     height: 100%;
     width: 4px;
-    background: greenyellow;
+    background: var(--firstColor);
 }
 
 .minus{
     height: 4px;
     width: 100%;
-    background: greenyellow;
+    background: var(--firstColor);
 }

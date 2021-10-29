@@ -1,0 +1,5 @@
+.container
+{
+    background: var(--backColorWelcome);
+    height: 20vh;
+}

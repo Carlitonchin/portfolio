@@ -7,10 +7,10 @@ function getSection(fraction)
     if(fraction <= 0.4)
         return 0;
 
-    if(fraction <= 1.8)
+    if(fraction <= 1.15)
         return 1;
 
-    return 1;
+    return 2;
 }
 
 const HeadBar = function(props)

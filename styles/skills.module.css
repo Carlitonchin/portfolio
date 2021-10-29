@@ -1,25 +1,42 @@
 .container
 {
+    padding-top: 12vh;
     min-height: 70vh;
     padding-bottom: 10vh;
+    
 }
 
 .container_skills
 {
     width: 100%;
-    margin-left: 40%;
+    margin-left: 43%;
 }
+
+@media (min-width: 801px) and (max-width: 1000px) {
+    .container_skills
+    {
+        margin-left: 41.5%;
+    }
+}
+
 
 @media (min-width: 500px) and (max-width: 800px) {
     .container_skills
     {
-        margin-left: 38%;
+        margin-left: 37.5%;
     }
 }
 
-@media (min-width: 1px) and (max-width: 499px) {
+@media (min-width: 1px) and (max-width: 399px) {
     .container_skills
     {
-        margin-left: 25%;
+        margin-left: 28.5%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+    .container_skills
+    {
+        margin-left: 35%;
     }
 }
