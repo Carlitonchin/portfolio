@@ -26,7 +26,6 @@
 .containerOptions
 {
     
-    cursor: pointer;
     margin-right: 10%;
     width: 60%;
     height: 100%;
@@ -36,8 +35,44 @@
     font-size: 1.3rem;
    
 }
+
+@media (min-width: 601px) and (max-width: 800px) {
+    .containerOptions
+    {
+        width: 65%;
+        margin-right: 5%;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 600px) {
+    .containerOptions
+    {
+        width: 65%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 500px) {
+    .containerOptions
+    {
+        width: 70%;
+        margin-right: 2%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 429px) {
+    .containerOptions{
+        display: none;
+    }
+}
+
 .container_single_option
 {
+
+    cursor: pointer;
     height: 100%;
     display: flex;
     align-items: center;

@@ -12,10 +12,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     border: solid 2px var(--firstColor);
     color: var(--fontColor);
     cursor: pointer;
+    box-shadow: 0px 0px 2px 0px gray;
 }
 
 @media (min-width: 501px) and (max-width: 800px) {
@@ -64,13 +64,16 @@
 {
     padding-top: 5px;
     padding-bottom: 5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .social_media>svg
 {
     position: absolute;
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
     right: 10px;
 }
 
