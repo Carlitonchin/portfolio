@@ -10,13 +10,23 @@
     background: var(--firstColor);
 }
 
-@media (max-width: 500px) {
+@media (min-width: 381px) and (max-width: 500px) {
     .container
     {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 380px) {
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        width: 18%;
     }
 }
 

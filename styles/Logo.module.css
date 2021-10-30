@@ -3,7 +3,10 @@
 .container{
     margin-left: 5px;
     height: 70%;
-    width: 30%;background: #91e9d0;
+    max-height: 10vw;
+    width: 30%;
+    min-width: 55px;
+    background: #91e9d0;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -18,10 +21,17 @@
     position: relative;
 }
 
-@media (min-width: 1px) and (max-width: 700px) {
+@media (min-width: 381px) and (max-width: 700px) {
     
     .container{
         width: 35%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 380px) {
+    
+    .container{
+        width: 40%;
     }
 }
 

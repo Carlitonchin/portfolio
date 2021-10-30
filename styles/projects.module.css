@@ -1,6 +1,7 @@
 .container
 {
     padding-top: 10vh;
-    min-height: 70vh;
+    height: 50vh;
+    min-height: 300px;
     padding-bottom: 10vh;
 }
