@@ -2,6 +2,7 @@ import Title from '../components/title'
 import { useState } from 'react';
 import styles from '../styles/treeSkills.module.css'
 import stylesFather from '../styles/skills.module.css'
+import Image from 'next/dist/client/image';
 
 function TreeSkills(props)
 {
@@ -30,11 +31,11 @@ function TreeSkills(props)
     :
     <div className={styles.margin_expand_icon}></div>
 }
-        {props.skill} <img src={props.icon}></img></div>
-    
+        {props.skill} <div className={styles.imag}><Image alt="-" priority={true} src={"/" + props.icon} layout="fill"/></div></div>
+
 </div>
-{(props.children && expanded)?
-<div className={styles.children}>
+{(props.children)?
+<div className={(expanded)?styles.children :styles.children + " " + styles.not_expanded}>
 <div className={styles.line}></div>
      <div className={styles.margin}>{props.children}</div>
      </div>: ""}

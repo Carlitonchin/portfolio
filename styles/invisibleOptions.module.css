@@ -6,12 +6,11 @@
     background: var(--backColorWelcome);
     position: absolute;
     top: 10vh;
-    right: 0;
+    right: calc(-50% - 10px);
     display: none;
     flex-direction: column;
     border-end-end-radius: 10px;
     border-end-start-radius: 10px;
-    margin-right: calc(-50% - 10px);
     transition: 500ms ease-in-out;
     -webkit-transition: 500ms ease-in-out;
     -moz-transition: 500ms ease-in-out;
@@ -21,15 +20,14 @@
 
 .container_showed
 {
-    margin-right: 0px;
+    right: 0;
 }
 
 @media (max-width: 500px) {
     .container{
         display: flex;
     flex-direction: column;
-        align-items: center
-        ;
+        align-items: center;
         justify-content: center;
     }
 

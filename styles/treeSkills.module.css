@@ -14,6 +14,12 @@
 .children
 {
     position: relative;
+    display: block;
+}
+
+.not_expanded
+{
+    display: none;
 }
 
 .line
@@ -82,12 +88,13 @@
     -o-border-radius: 10px;
 }
 
-.skill>img
+.imag
 {
     width: 1.8rem;
     height: 1.8rem;
     margin-left: 0.8vw;
     margin-top: 0.3rem;
+    position: relative;
 }
 
 .skill:hover
