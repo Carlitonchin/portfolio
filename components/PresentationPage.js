@@ -25,7 +25,7 @@ function Presentation()
       <div className={styles.presentation}>
 
       <h1><span className={styles.hi}>Hi</span> , my name is Carlos Arrieta</h1>
-      <h3>{"I'm Computer Science student"}</h3>
+      <h3>{"I'm Fullstack Developer"}</h3>
 
       </div>
       <div className={styles.description}>
